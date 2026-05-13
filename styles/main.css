@@ -211,7 +211,7 @@ body {
   max-width: 100vw;
   position: absolute;
   top: 50%;
-  z-index: 1;
+  z-index: 2;
 }
 .city {
   filter: drop-shadow(8px 0px 0px white) drop-shadow(-8px 0px 0px white)
@@ -284,7 +284,6 @@ body {
 }
 
 .hero-heading {
-  max-width: 335px;
   font-size: clamp(32px, 7vw, 3.825rem);
   font-weight: normal;
   text-align: center;
@@ -382,5 +381,68 @@ body {
 @media (min-width: 1024px) {
   .note {
     font-size: 1.25rem;
+  }
+}
+
+.chess {
+  position: absolute;
+}
+
+.first {
+  width: 46px;
+  z-index: 1;
+  bottom: 25%;
+  left: 50%;
+}
+
+.second {
+  width: 46px;
+  z-index: 1;
+  bottom: 40%;
+  left: 70%;
+}
+
+.third {
+  bottom: 0;
+  z-index: 999;
+  left: 50%;
+  transform: translate(-50%);
+  height: 121px;
+}
+
+.forth {
+  display: none;
+}
+@media (min-width: 1024px) {
+  .first {
+    width: 113px;
+    z-index: 1;
+    bottom: 25%;
+    left: 50%;
+  }
+
+  .second {
+    width: 113px;
+    z-index: 1;
+    bottom: 42%;
+    left: 77%;
+  }
+
+  .forth {
+    z-index: 999;
+    display: block;
+    bottom: 0;
+    left: 80%;
+  }
+  .third {
+    left: 60%;
+    height: 243px;
+  }
+}
+
+@media (min-width: 1366px) {
+  .second {
+    bottom: 42%;
+    left: 70%;
   }
 }
