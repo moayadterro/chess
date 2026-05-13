@@ -265,6 +265,8 @@ body {
   }
   .hero__container_content {
     max-width: 542px;
+    padding-left: 0;
+    padding-right: 0;
   }
   .hero__container_desc {
     text-align: center;
@@ -302,7 +304,7 @@ body {
   background-color: transparent;
   margin: 1.25rem;
   z-index: 999;
-  width: 100%;
+  width: stretch;
 }
 .header__logo {
   height: 32px;
