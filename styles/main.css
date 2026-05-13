@@ -264,7 +264,6 @@ body {
     }
   }
   .hero__container_content {
-    padding-left: 4.25rem;
     max-width: 542px;
   }
   .hero__container_desc {
@@ -303,6 +302,7 @@ body {
   background-color: transparent;
   margin: 1.25rem;
   z-index: 999;
+  width: 100%;
 }
 .header__logo {
   height: 32px;

@@ -62,12 +62,14 @@
   </head>
   <body>
     <header class="header">
-      <img
-        class="header__logo"
-        src="assets/images/logo.png"
-        alt="Международный васюкинский турнир"
-        title="Международный васюкинский турнир"
-      />
+      <div class="wrapper">
+        <img
+          class="header__logo"
+          src="assets/images/logo.png"
+          alt="Международный васюкинский турнир"
+          title="Международный васюкинский турнир"
+        />
+      </div>
     </header>
 
     <main>
@@ -79,33 +81,33 @@
           <img class="chess second" src="assets/images/2.png" />
           <img class="chess third" src="assets/images/3.png" />
           <img class="chess forth" src="assets/images/4.png" />
+          <div class="wrapper">
+            <div class="hero__container_content">
+              <h1 class="hero-heading mb-0 text-align-start">
+                Превратите уездный город
+              </h1>
+              <h1 class="hero-heading mt-0">в столицу земного шара</h1>
+              <p class="hero__container_desc">
+                Оплатите взнос на телеграммы для организации Международного
+                васюкинского турнира по шахматам
+              </p>
+              <div class="btns__container">
+                <button
+                  class="btn btn--primary"
+                  onclick="scrollToSection('support')"
+                >
+                  Поддержать шахматную мысль
+                </button>
 
-          <div class="hero__container_content">
-            <h1 class="hero-heading mb-0 text-align-start">
-              Превратите уездный город
-            </h1>
-            <h1 class="hero-heading mt-0">в столицу земного шара</h1>
-            <p class="hero__container_desc">
-              Оплатите взнос на телеграммы для организации Международного
-              васюкинского турнира по шахматам
-            </p>
-            <div class="btns__container">
-              <button
-                class="btn btn--primary"
-                onclick="scrollToSection('support')"
-              >
-                Поддержать шахматную мысль
-              </button>
-
-              <button
-                class="btn btn--outline"
-                onclick="scrollToSection('tournament')"
-              >
-                Подробнее о турнире
-              </button>
+                <button
+                  class="btn btn--outline"
+                  onclick="scrollToSection('tournament')"
+                >
+                  Подробнее о турнире
+                </button>
+              </div>
             </div>
           </div>
-          <!-- <img class="city" src="assets/images/city.png" /> -->
         </div>
         <div class="marquee__container">
           <div class="marquee">
