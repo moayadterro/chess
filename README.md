@@ -1,4 +1,4 @@
-# 🧩 Yet Another Task! – Code Review & Improvements
+# 🧩 Yet Another Task!
 
 ## 🔗 Project URL
 
