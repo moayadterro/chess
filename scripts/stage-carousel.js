@@ -97,7 +97,6 @@ update(false);
 
 function renderStages(containerSelector) {
   const container = document.querySelector(containerSelector);
-  console.log("here", container);
 
   if (!container) return;
 
