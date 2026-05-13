@@ -85,12 +85,20 @@
               Оплатите взнос на телеграммы для организации Международного
               васюкинского турнира по шахматам
             </p>
-            <div>
-              <button class="btn btn--primary">
+            <div class="btns__container">
+              <button
+                class="btn btn--primary"
+                onclick="scrollToSection('support')"
+              >
                 Поддержать шахматную мысль
               </button>
 
-              <button class="btn btn--outline">Подробнее о турнире</button>
+              <button
+                class="btn btn--outline"
+                onclick="scrollToSection('tournament')"
+              >
+                Подробнее о турнире
+              </button>
             </div>
           </div>
           <!-- <img class="city" src="assets/images/city.png" /> -->
@@ -106,7 +114,7 @@
         </div>
       </section>
 
-      <section class="section mb-0">
+      <section id="support" class="section mb-0">
         <div class="wrapper banner">
           <h3 class="heading3 text-top">
             Чтобы поддержать <br />
@@ -212,47 +220,10 @@
               </button>
             </div>
           </div>
-
-          <!-- <div class="grid">
-            <div class="card">
-              <span>1</span>
-              Строительство железнодорожной магистрали Москва-Васюки
-            </div>
-            <div class="card">
-              <span>2</span>
-              Открытие фешенебельной гостиницы «Проходная пешка» и других
-              небоскрёбов
-            </div>
-            <div class="card tall">
-              <span>3</span>
-              Поднятие сельского хозяйства в радиусе на тысячу километров:
-              производство овощей, фруктов, икры, шоколадных конфет
-            </div>
-
-            <div class="card">
-              <span>4</span>Строительство дворца для турнира
-            </div>
-            <div class="card">
-              <span>5</span>
-              Размещение гаражей для гостевого автотранспорта
-            </div>
-
-            <div class="card">
-              <span>6</span>
-              Постройка сверхмощной радиостанции для передачи всему миру
-              сенсационных результатов
-            </div>
-            <div class="card wide">
-              <span>7</span>
-              Создание аэропорта «Большие Васюки» с регулярным отправлением
-              почтовых самолётов и дирижаблей во все концы света, включая
-              Лос-Анжелос и Мельбурн
-            </div>
-          </div> -->
         </div>
       </section>
 
-      <section class="section">
+      <section id="tournament" class="section">
         <div class="wrapper relative">
           <h2 class="heading2">Участники турнира</h2>
 

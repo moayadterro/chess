@@ -185,6 +185,20 @@ body {
 /* end 3rd section */
 
 /* hero section */
+.btns__container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+
+  button:last-child {
+    background-color: #ffffff;
+    border: none;
+    &:hover {
+      background-color: var(--color-dark);
+      color: var(--text-light);
+    }
+  }
+}
 
 .hero__container {
   padding-top: 4rem;
@@ -207,7 +221,7 @@ body {
   right: -2rem;
 }
 
-/* .hero__container::before {
+.hero__container::before {
   content: "";
   position: absolute;
   inset: 0;
@@ -216,7 +230,7 @@ body {
   width: 100%;
 
   background: url("/assets/images/overlay.png") center / cover;
-} */
+}
 .hero__container_content {
   position: relative;
 
@@ -232,6 +246,16 @@ body {
 }
 
 @media (min-width: 1024px) {
+  .btns__container {
+    display: flex;
+    flex-direction: row;
+
+    button:last-child {
+      background-color: transparent;
+      border: 2px solid var(--color-dark);
+      color: var(--text-dark);
+    }
+  }
   .hero__container_content {
     padding-left: 4.25rem;
     max-width: 542px;
