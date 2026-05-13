@@ -4,7 +4,7 @@
 
 [https://moayadterro.github.io/chess/](https://moayadterro.github.io/chess/)
 
-## 🧠 What can be improved if you had more time?
+## 🧠 What can be improved if you had a free time?
 
 - 🎨 **Optimize HTML, CSS, JS** – minify, remove unused code, improve performance.
 - 🖼️ **Use compressed WebP images** (recommended) – smaller file size, faster loading.
