@@ -85,9 +85,10 @@ body {
   max-width: 610px;
   width: 100%;
 
-  background: url("/assets/images/overlay.png") center / cover;
-  mask: url("/assets/images/bender.png") center / contain no-repeat;
-  -webkit-mask: url("/assets/images/bender.png") center / contain no-repeat;
+  background: url("/chess/assets/images/overlay.png") center / cover;
+  mask: url("/chess/assets/images/bender.png") center / contain no-repeat;
+  -webkit-mask: url("/chess/assets/images/bender.png") center / contain
+    no-repeat;
 }
 
 .info-table {
@@ -234,7 +235,7 @@ body {
   mix-blend-mode: color-burn;
   width: 100%;
 
-  background: url("/assets/images/overlay.png") center / cover;
+  background: url("/chess/assets/images/overlay.png") center / cover;
 }
 .hero__container_content {
   position: relative;
