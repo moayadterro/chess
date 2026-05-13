@@ -1,0 +1,29 @@
+:root {
+  --color-bg-primary: #ffffff;
+  --color-bg-seconday: #e9ded4;
+  --color-text-secondary: #313131;
+  --color-red: #f54932;
+  --color-blue: #3057a2;
+
+  --color-dark: #1f1f1f;
+  --color-light: #ffffff;
+  --color-muted: #cfcfcf;
+
+  --color-primary: #f2c94c;
+  --color-primary-hover: #e0b63f;
+
+  --color-secondary: #3b5ea7;
+  --color-secondary-hover: #2f4f8f;
+
+  --text-dark: #222;
+  --text-light: #fff;
+
+  --radius-pill: 999px;
+
+  --transition: 0.25s ease;
+
+  --font-body: "Golos Text", system-ui, sans-serif;
+  --font-heading: "Merriweather", Georgia, serif;
+
+  --block-max-width: 1222px;
+}

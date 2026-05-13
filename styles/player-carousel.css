@@ -1,0 +1,77 @@
+.player__carousel {
+  overflow: hidden;
+
+  .track {
+    gap: 8px;
+    display: flex;
+    transition: transform 0.4s ease;
+  }
+
+  .carousel__controls {
+    margin-top: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.2;
+    gap: 16px;
+  }
+  @media (min-width: 1024px) {
+    .carousel__controls {
+      margin-top: 0;
+      position: absolute;
+      top: 0.5rem;
+      right: 1rem;
+    }
+  }
+  #counter {
+    span {
+      color: var(--color-text-secondary);
+      opacity: 0.6;
+    }
+  }
+
+  .player__card {
+    width: 335px;
+    text-align: center;
+    flex-shrink: 0;
+  }
+
+  .player__card img {
+    width: 244px;
+    height: 244px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  @media (min-width: 1024px) {
+    .player__card {
+      width: 394px;
+    }
+
+    .player__card img {
+      width: 320px;
+      height: 320px;
+    }
+  }
+
+  .player__card .player_title {
+    font-size: 1.25rem;
+    color: var(--color-text-secondary);
+    margin: 0 0 1.5rem;
+    opacity: 0.6;
+  }
+  .player__card a {
+    font-size: 12px;
+    border: 1px solid #333;
+    padding: 4px 12px;
+    text-decoration: none;
+    color: #333;
+  }
+
+  .player__card .player__name {
+    font-family: var(--font-body);
+    font-size: 1.5rem;
+    font-size: 1.5rem;
+    margin: 1rem 0 0.65rem;
+    font-weight: 500;
+  }
+}
