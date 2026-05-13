@@ -8,7 +8,8 @@
 }
 .card {
   background-image:
-    url("assets/images/overlay.png"), url("assets/images/cooper.png");
+    url("/chess/assets/images/overlay.png"),
+    url("/chess/assets/images/cooper.png");
 
   background-blend-mode: color-burn, normal;
   background-size: contain, cover;
